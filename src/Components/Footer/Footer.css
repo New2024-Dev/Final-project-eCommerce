@@ -1,0 +1,83 @@
+#qualtydiv{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 100px 40px 100px 40px;
+}
+
+#highdiv{
+    display: flex;
+    column-gap: 10px;
+}
+#highdiv img{
+    width: 52.77px;
+    height: 60px;
+}
+#highdiv h2{
+    margin: 0;
+    padding-bottom: 10px;
+}
+#highdiv p{
+    margin: 0;
+}
+
+#Warrantydiv{
+    display: flex;
+    column-gap: 10px;
+}
+#Warrantydiv img{
+    width: 60px;
+    height: 58.13px;
+}
+#Warrantydiv h2{
+    margin: 0;
+    padding-bottom: 10px;
+}
+#Warrantydiv p{
+    margin: 0;
+}
+
+#shippingdiv{
+    display: flex;
+    column-gap: 10px;
+}
+#shippingdiv img{
+    width: 60px;
+    height: 55.97px;
+}
+#shippingdiv h2{
+    margin: 0;
+    padding-bottom: 10px;
+}
+#shippingdiv p{
+    margin: 0;
+}
+
+#supportdiv{
+    display: flex;
+    column-gap: 10px;
+}
+#supportdiv img{
+    width: 52.94px;
+    height: 60px;
+}
+#supportdiv h2{
+    margin: 0;
+    padding-bottom: 10px;
+}
+#supportdiv p{
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px){
+    #qualtydiv{
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        justify-content: center;
+        padding: 40px 120px 40px 120px;
+        
+    }
+}
+
+

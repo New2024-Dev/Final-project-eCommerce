@@ -1,0 +1,105 @@
+#allcontactdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 70px;
+}
+
+#getdiv{
+    width: 600px;
+    text-align: center;
+}
+
+#contactimg{
+    width: 1520px;
+}
+
+#detcontactdiv{
+    display: flex;
+    column-gap: 200px;
+}
+
+#addphworkediv{
+    width: 170px;
+}
+
+#addphworkediv span{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#addphworkediv p{
+    margin-top: 0;
+    padding-left: 40px;
+    margin-bottom: 40px;
+}
+
+#inputdiv input{
+    width: 400px;
+    height: 50px;
+    border: 1px solid rgb(170, 169, 169);
+    border-radius: 8px;
+    
+}
+
+#inputdiv textarea{
+    width: 400px;
+    height: 80px;
+    border: 1px solid rgb(170, 169, 169);
+    border-radius: 8px;
+}
+
+#inputdiv button{
+    display: block;
+    margin: 30px 0 30px 0;
+    background-color: rgb(174, 132, 27);
+    color: white;
+    border: none;
+    width: 180px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+#messpargr{
+    margin-top: 40px;
+}
+
+.errormessg{
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+@media only screen and (max-width: 600px){
+    #contactimg{
+        width: 483px;
+    } 
+
+    #getdiv{
+        width: 400px;
+    }
+
+    #detcontactdiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #addphworkediv{
+        width: 300px;
+    }
+
+    #mobilenum{
+        width: 170px;
+    }
+
+    #worktime{
+        width: 200px;
+    }
+
+    #inputdiv button{
+        width: 400px;
+        padding: 15px;
+    }
+}

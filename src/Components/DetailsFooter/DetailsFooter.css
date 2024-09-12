@@ -1,0 +1,84 @@
+#alldetdiv{
+    margin: 50px;
+}
+
+#detailsdiv{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(186, 182, 182);
+    padding-bottom: 40px;
+    padding-right: 100px;
+}
+#funirodiv{
+    width: 250px;
+}
+#funirodiv h2{
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+#funirodiv p{
+    margin: 0;
+}
+
+#ullinks{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+#linksword{
+    color: rgb(165, 161, 161);
+}
+
+#ulhelp{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+#helpword{
+    color: rgb(165, 161, 161);
+}
+
+#newsdiv p{
+    color: rgb(165, 161, 161);
+    margin: 0;
+    padding-bottom: 35px;
+}
+
+#newsdiv input{
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+
+#newsdiv label{
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    #alldetdiv{
+        margin: 50px 20px 50px 20px;
+    }
+    
+    #detailsdiv{
+        display: flex;
+    /* justify-content: center; */
+    padding-bottom: 40px;
+    padding-right: 0;
+    column-gap: 20px;
+    }
+
+    #funirodiv{
+        width: 150px;
+    }
+}

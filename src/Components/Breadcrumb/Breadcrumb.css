@@ -1,0 +1,22 @@
+.breadcrumb {
+    font-size: 14px;
+    color: black;
+    padding: 30px 0 30px 50px;
+    font-size: larger;
+    
+    margin-bottom: 20px;
+    background-color: #F9F1E7;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #b6b2b2;
+    margin-right: 10px;
+    
+
+}
+
+.breadcrumb span {
+    font-weight: bold;
+    color: #000;
+}

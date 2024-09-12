@@ -1,0 +1,156 @@
+#cartimg{
+    width: 1530px;
+}
+
+  #allcartdiv{
+    display: flex;
+    padding: 60px;
+    column-gap: 30px;
+    
+  }
+
+  #titledetdiv{
+    width: 1100px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F9F1E7;
+  }
+
+  #allcartproddiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding-top: 20px;
+  }
+
+#deteachprodiv{
+  display: flex;
+  column-gap: 20px;
+}
+
+  #prodimg{
+    width: 100px;
+    height: 70px;
+  }
+
+  #title{
+    width: 240px;
+  }
+  #price{
+    width: 200px;
+    padding-left: 25px;
+  }
+  #quantity{
+    width: 50px;
+    text-align: center;
+  }
+  #subtotal{
+    width: 230px;
+    text-align: right;
+    margin-right: 30px;
+  }
+
+  #deteachprodiv button{
+    background-color: unset;
+    border: none;
+    
+    
+  }
+
+  #removeimg{
+    width: 21px;
+    height: 25px;
+  }
+
+  #carttotal{
+    background-color: #F9F1E7;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+
+  #carttotal button{
+    background-color: unset;
+    border: 1px solid black;
+    width: 130px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  @media only screen and (max-width: 600px){
+    #cartimg{
+      width: 483px;
+  }
+
+  #allcartdiv{
+    padding: unset;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  #allcartdiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  #detcartdiv{
+    display: flex;
+    column-gap: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+  
+  }
+
+  #titledetdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    
+    
+  }
+
+  #allcartproddiv{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #deteachprodiv{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #priceword{
+    margin-top: 100px;
+  }
+
+  #quantity{
+    margin-top: 35px;
+  }
+
+    #price{
+      padding-left: unset;
+    }
+
+  #subtotal{
+    width: unset;
+    text-align: unset;
+    
+  }
+
+  #removeimg{
+    float: left;
+  }
+
+  #carttotal{
+    width: 483px;
+  }
+  
+  #carttotal button{
+    width: 400px;
+  }
+  }

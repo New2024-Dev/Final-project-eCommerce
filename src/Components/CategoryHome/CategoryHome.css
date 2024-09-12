@@ -1,0 +1,50 @@
+#homeimg{
+    width: 1530px;
+}
+
+#allcatdiv{
+    margin: 100px 0 50px 0;
+}
+
+#catword{
+    text-align: center;
+}
+
+#detcatdiv{
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#detcatdiv img{
+    width: 300px;
+    height: 400px;
+}
+
+#detcatdiv a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#detcatdiv a:hover{
+    color: blue;
+}
+
+@media only screen and (max-width: 600px){
+    #homeimg{
+        width: 483px;
+    }
+
+    #detcatdiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+}

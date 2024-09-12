@@ -1,0 +1,47 @@
+#titlecatdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    
+}
+
+#titlecatdiv h1{
+    text-align: center;
+    margin-bottom: 40px;
+    
+    
+}
+
+#proddivgrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    column-gap: 100px;
+}
+
+
+
+#eachprocard{
+    background-color: #e7e5e5;
+    width: 340px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+    
+  
+  
+}
+
+#eachprocard img {
+    width: 340px;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+
+  @media only screen and (max-width: 600px){
+    #proddivgrid{
+        display: flex;
+        flex-direction: column;
+    }
+  }
