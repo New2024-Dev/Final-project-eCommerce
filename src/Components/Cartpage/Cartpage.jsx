@@ -1,6 +1,6 @@
 import React from 'react';
 import useProductStore from '../../Store/useProductStore';
-import './CartPage.css';
+import './Cartpage.css';
 import cartpage from "/assets/Image/cartpage.png"
 import remove from "/assets/Image/remove.png"
 
